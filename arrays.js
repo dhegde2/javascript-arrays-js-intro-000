@@ -30,5 +30,5 @@ array.pop();
 return array;
 }
 function removeElementFromEndOfArray(array){
-return array.slice(array.length-1);
+return array.slice(0,array.length-2);
 }
