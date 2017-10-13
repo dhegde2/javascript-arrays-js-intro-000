@@ -22,7 +22,7 @@ array.shift();
 return array;
 }
 function removeElementFromBeginningOfArray(array){
-array.slice();
+array.slice(0,1);
 return array;
 }
 function destructivelyRemoveElementFromEndOfArray(array){
@@ -30,6 +30,6 @@ array.pop();
 return array;
 }
 function removeElementFromEndOfArray(array){
-array.slice(array.length-1);
+array.slice(array.length-2,array.length-1);
 return array;
 }
